@@ -1,0 +1,71 @@
+/* CSS HEX 
+--sizzling-red: #f2545bff;
+--amaranth-purple: #a93f55ff;
+--gunmetal: #19323cff;
+--mint-cream: #f3f7f0ff;
+--rose-taupe: #8c5e58ff;
+
+font-family: 'Dancing Script', cursive; */
+
+#Topo {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #19323cff;
+  color: #f2545bff;
+  padding: 15px 30px;
+  text-shadow: 1px 1px 1px #f3f7f0ff;
+}
+
+body {
+  background-color: #f3f7f0ff;
+  font-family: 'Abel', sans-serif;
+  color: #19323C;
+}
+
+#Eu {
+  border-radius: 100%;
+  background-color: #f2545bff;
+  padding: 3px;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px #19323C;
+  color: #a93f55ff;
+}
+
+ol {
+  color: #8c5e58ff;
+}
+
+a{
+  text-decoration: none;
+  color: #8c5e58ff;
+}
+
+strong {
+  color: #8c5e58ff;
+}
+
+.item1{
+  font-size: 22px;
+}
+
+.item2{
+  font-size: 21px;
+}
+
+.item3{
+  font-size: 20px;
+}
+
+.item4{
+  font-size: 19px;
+}
+
+.item5{
+  font-size: 18px;
+}
