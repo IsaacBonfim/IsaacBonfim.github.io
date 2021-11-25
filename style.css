@@ -25,11 +25,15 @@ body {
   color: #19323C;
 }
 
+nav {
+  margin: 25px;
+}
+
 div.corpo {
   margin: 25px;
 }
 
-div.corpo:nth-of-type(3) {
+main {
   background-color: #8c5e58ff;
   margin: 0px 0px;
   padding: 25px;
@@ -39,16 +43,16 @@ hr {
   margin: 0px 0px;
 }
 
-div.foto, div.descrição {
+section.foto, section.descrição {
   display: inline-block;
   vertical-align: middle;
 }
 
-div.foto{
+section.foto{
   width: 250px;
 }
 
-div.descrição {
+section.descrição {
   width: 800px;
   height: 300px;
   background-color: #19323C;
@@ -60,7 +64,7 @@ div.descrição {
   text-align: justify;
 }
 
-div.descrição p strong {
+section.descrição p strong {
   color: #f2545bff;
   text-shadow: 1px 1px 1px #8c5e58ff;
 }
@@ -122,4 +126,17 @@ li.item:nth-of-type(5){
 
 li.item:nth-of-type(odd) {
   font-style:italic;
+}
+
+footer {
+  background-color: #19323cff;
+  color: #f3f7f0ff;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer strong{
+  color: #f2545bff;
+  text-shadow: 1px 1px 2px #8c5e58ff;
 }
