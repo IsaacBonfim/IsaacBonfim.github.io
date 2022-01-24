@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Projeto To Do List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  </head>
+
+  <Body>
+
+    <header>
+      
+      <h1 id="title">Minha Lista de Tarefas</h1>
+
+    </header>
+
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+
+    <aside>
+
+      <button id="mover-cima">Subir Posição</button>
+      <button id="mover-baixo">Descer Posição</button>
+      <button id="remover-selecionado">Remover Selecionado</button>
+    
+    </aside>
+
+    <main>
+  
+      <input id="texto-tarefa" type="text" placeholder="Digite aqui suas tarefas">
+
+      <button id="criar-tarefa">Adicionar Tarefa</button>
+
+      <div id="lista">
+
+        <ol id="lista-tarefas"></ol>
+
+      </div>
+
+      <button id="apaga-tudo">Limpa Lista</button>
+
+      <button id="remover-finalizados">Remover Itens Finalizados</button>
+
+      <button id="salvar-tarefas">Salvar Lista</button>
+
+    </main>
+
+    <footer>
+      
+      <h5 id="rodape">Projeto desenvolvido por Isaac Oliveira em Dezembro de 2021</h5>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+  </Body>
+
+</html>

@@ -85,9 +85,9 @@ header, main, footer {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   overflow: hidden;
-  flex-basis: 20%;
+  flex-basis: 30%;
   flex-grow: 1;
   flex-shrink: 1;
   max-width: 700px;
@@ -100,10 +100,11 @@ header, main, footer {
 .div-imagens a {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 .label-imagens {
+  align-self: center;
   position: absolute;
   font-family: Lobster, cursive;
   font-size: 300%;
