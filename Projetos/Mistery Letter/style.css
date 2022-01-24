@@ -1,0 +1,157 @@
+/* SCSS RGB
+$dark-jungle-green: rgba(0, 21, 20, 1);
+$white: rgba(251, 255, 254, 1);
+$blood-red: rgba(107, 5, 4, 1);
+$chinese-red: rgba(163, 50, 11, 1);
+$goldenrod: rgba(230, 175, 46, 1);
+
+font-family: Titillium Web, sans-serif;
+*/
+
+body {
+  margin: 0;
+  background-color: rgba(0, 21, 20, 1);
+}
+
+#title {
+  text-align: center;
+  font-family: Titillium Web, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  color: rgba(107, 5, 4, 1);
+  text-shadow: 2px 2px 2px rgba(252, 252, 252, 1);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: rgba(0, 21, 20, 1);
+  border-bottom: 4px solid rgba(163, 50, 11, 1);
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+  margin-left: 10px;
+}
+
+#carta-texto {
+  width: 400px;
+}
+
+#carta-gerada {
+  color: white;
+  margin-top: 100px;
+}
+
+#label-contador {
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  bottom: 60px;
+}
+
+#carta-contador {
+  position: absolute;
+  color: white;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+  bottom: 60px;
+  left: 160px;
+}
+
+span {
+  display: inline-block;
+  padding: 3px;
+}
+
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: rotate(-5deg);
+}
+
+.rotateright {
+  transform: rotate(5deg);
+}
+
+.skewleft {
+  transform: skewX(10deg);
+}
+
+.skewright {
+  transform: skewX(-10deg);
+}
+
+#light {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+}
+
+#label {
+  position: absolute;
+  color: white;
+  bottom: 60px;
+  right: 10px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0, 21, 20, 1);
+  border-top: 4px solid rgba(163, 50, 11, 1);
+  padding-top: 10px;
+}
+
+#rodape {
+  text-align: center;
+  font-family: Titillium Web, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: rgba(252, 252, 252, 1);
+  text-shadow: 2px 2px 2px rgba(230, 175, 46, 1);
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
