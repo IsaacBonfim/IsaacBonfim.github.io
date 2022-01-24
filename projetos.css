@@ -7,7 +7,7 @@ $rose-taupe: rgba(140, 94, 88, 1);
 
 font-family: 'Dancing Script', cursive; */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   
   #Topo h1{
     font-size: 20px;
