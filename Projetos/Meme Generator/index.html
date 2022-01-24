@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Projeto Meme Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      
+      <h1 id="title">Gerador de Memes</h1>
+
+    </header>
+
+    <main>
+
+      <div>
+
+        <p>Digite seu texto aqui: </p>
+    
+        <input id="text-input" type="text" placeholder="Digite o texto aqui" maxlength="60">
+
+      </div>
+
+      <div>
+  
+        <p>Escolha a imagem: </p>
+  
+        <input id="meme-insert" type="file" accept="image/*">
+  
+      </div>
+
+      <section>
+
+        <div id="exemplos">
+        
+          <img id="meme-1" src="imgs/meme1.png" alt="" width="70px" height="70px">
+          <img id="meme-2" src="imgs/meme2.png" alt="" width="70px" height="70px">
+          <img id="meme-3" src="imgs/meme3.png" alt="" width="70px" height="70px">
+          <img id="meme-4" src="imgs/meme4.png" alt="" width="70px" height="70px">
+          
+        </div>
+        
+        <div id="meme-image-container">
+          
+          <h1 id="meme-text"></h1>
+          
+          <img id="meme-image" src="" alt="">
+          
+        </div>
+
+        <div id="bordas">
+
+          <button id="fire">Fogo</button>
+          <button id="water">Água</button>
+          <button id="earth">Terra</button>
+          <button id="padrao">Padrão</button>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+      
+      <h5 id="rodape">Projeto desenvolvido por Isaac Oliveira em Dezembro de 2021</h5>
+
+    </footer>
+    
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

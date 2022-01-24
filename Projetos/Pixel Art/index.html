@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Projeto Pixel Art</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Smooch&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1 id="title">Paleta de Cores</h1>
+
+    </header>
+
+    <main>
+
+      <div id ="paleta">
+      
+        <ul id="color-palette">
+          <li class="color selected" style="background-color: #000;"></li>
+          <li class="color random"></li>
+          <li class="color random"></li>
+          <li class="color random"></li>
+          <!-- <li class="color"></li> -->
+        </ul>
+
+      </div>
+      
+      <section id='botoes'>
+        
+        <button id="clear-board">Limpar</button>
+
+        <input id="board-size" type="number" min="1" max="50">
+        <button id="generate-board">VQV</button>
+      
+      
+      </section>
+      
+      <div id="pixel-board"></div>
+
+    </main>
+    
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+
+</html>
