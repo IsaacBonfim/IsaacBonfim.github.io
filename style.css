@@ -10,15 +10,18 @@ font-family: 'Dancing Script', cursive; */
 #Topo {
   display: flex;
   justify-content: center;
-  font-family: Lobster, cursive;
-  font-weight: lighter;
   text-align: center;
-  padding: 15px 30px;
+  padding: 5px 30px;
   border-bottom: 3px solid #f2545bff;
   margin: 0;
-  color: #f2545bff;
   background-color: #19323cff;
-  text-shadow: 1px 1px 1px #f3f7f0ff;
+}
+
+#Topo h1{
+  font-family: Lobster, cursive;
+  font-weight: 100;
+  color: #f2545bff;
+  text-shadow: 2px 1px 3px #f3f7f0ff;
 }
 
 
