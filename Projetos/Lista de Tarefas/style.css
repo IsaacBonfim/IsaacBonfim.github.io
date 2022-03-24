@@ -38,15 +38,17 @@ header {
 }
 
 #funcionamento {
-  text-align: center;
+  align-items: center;
+  background-color: rgba(153 , 225 , 217 , 1);
+  border-bottom: 4px solid rgba(112 , 171 , 175 , 1);
+  color: rgba(112 , 171 , 175 , 1);
+  display: flex;
   font-family: Roboto, sans-serif;
   font-weight: 800;
-  color: rgba(112 , 171 , 175 , 1);
-  background-color: rgba(153 , 225 , 217 , 1);
-  padding-top: 8px;
+  justify-content: space-between;
+  margin: 0 0 10px;
   padding-bottom: 8px;
-  border-bottom: 4px solid rgba(112 , 171 , 175 , 1);
-  margin-top: 0;
+  padding-top: 8px;
 }
 
 aside {
