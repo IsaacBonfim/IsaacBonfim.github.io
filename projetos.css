@@ -69,10 +69,14 @@ header, main, footer {
 }
 
 #Topo h1{
-  font-family: Lobster, cursive;
-  font-weight: 100;
   color: rgba(242, 84, 91, 1);
-  text-shadow: 2px 1px 3px rgba(243, 247, 240, 1);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px;
+  text-shadow: -1px -1px 0 rgba(25, 50, 60, 1),
+  2px 2px 0 rgba(25, 50, 60, 1),
+  4px 4px 3px rgba(243, 247, 240, 1);
 }
 
 #frase {
@@ -125,6 +129,17 @@ header, main, footer {
   display: flex;
   justify-content: center;
   align-items: stretch;
+}
+
+.section-modulo {
+  align-self: center;
+  color: rgba(169, 63, 85, 1);
+  font-family: Lobster, cursive;
+  font-size: 200%;
+  margin: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(242, 84, 91, 1);
+  width: 100%;
 }
 
 .label-imagens {

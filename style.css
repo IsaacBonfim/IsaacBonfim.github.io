@@ -11,17 +11,21 @@ font-family: 'Dancing Script', cursive; */
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 5px 30px;
+  padding: 5px 15px;
   border-bottom: 3px solid #f2545bff;
   margin: 0;
   background-color: #19323cff;
 }
 
 #Topo h1{
-  font-family: Lobster, cursive;
-  font-weight: 100;
   color: #f2545bff;
-  text-shadow: 1px 1px 1px #f3f7f0ff;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 10px;
+  text-shadow: -1px -1px 0 #19323cff,
+  2px 2px 0 #19323cff,
+  4px 4px 3px #f3f7f0ff;
 }
 
 
