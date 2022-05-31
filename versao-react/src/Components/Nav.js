@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Styles/Nav.css';
 
 function Nav() {
   return(
     <nav className="nav-container">
       <ol>
-        <li className="btn">Informações Pessoais</li>
-        <li className="btn">Minhas Habilidades</li>
-        <li className="btn">Musicas para Estudar</li>
-        <li className="btn">Projetos da Trybe</li>
+        <li><Link className="link" to="/portifolio/">Início</ Link></li>
+        <li><Link className="link" to="/portifolio/Sobre">Sobre mim</ Link></li>
+        <li><Link className="link" to="/portifolio/Contato">Contato</ Link></li>
+        <li><Link className="link" to="/portifolio/Projetos">Projetos</ Link></li>
       </ol>
     </nav>
   );

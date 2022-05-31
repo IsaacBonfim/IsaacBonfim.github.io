@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Components/Header';
 
-function Home() {
+function Sobre() {
   return(
     <>
       <Header />
-      <h1>Home</h1>
+      <h1>Sobre</h1>
     </>
   );
 }
 
-export default Home;
+export default Sobre;

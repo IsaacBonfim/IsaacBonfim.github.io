@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Components/Header';
 
-function Home() {
+function Projetos() {
   return(
     <>
       <Header />
-      <h1>Home</h1>
+      <h1>Projetos</h1>
     </>
   );
 }
 
-export default Home;
+export default Projetos;

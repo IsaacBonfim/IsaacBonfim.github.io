@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Components/Header';
 
-function Home() {
+function Contato() {
   return(
     <>
       <Header />
-      <h1>Home</h1>
+      <h1>Contato</h1>
     </>
   );
 }
 
-export default Home;
+export default Contato;
