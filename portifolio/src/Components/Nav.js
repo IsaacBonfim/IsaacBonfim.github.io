@@ -6,10 +6,10 @@ function Nav() {
   return(
     <nav className="nav-container">
       <ol>
-        <li><Link className="link" to="/portifolio/">Início</ Link></li>
-        <li><Link className="link" to="/portifolio/Sobre">Sobre mim</ Link></li>
-        <li><Link className="link" to="/portifolio/Contato">Contato</ Link></li>
-        <li><Link className="link" to="/portifolio/Projetos">Projetos</ Link></li>
+        <li><Link className="link" to="/portfolio/">Início</ Link></li>
+        <li><Link className="link" to="/portfolio/Sobre">Sobre mim</ Link></li>
+        <li><Link className="link" to="/portfolio/Contato">Contato</ Link></li>
+        <li><Link className="link" to="/portfolio/Projetos">Projetos</ Link></li>
       </ol>
     </nav>
   );

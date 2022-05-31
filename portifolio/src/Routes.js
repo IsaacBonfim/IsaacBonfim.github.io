@@ -9,10 +9,10 @@ import Sobre from './Pages/Sobre';
 function Routes() {
   return (
     <Switch>
-      <Route exact path="/portifolio/" component={ Home } />
-      <Route exact path="/portifolio/Contato" component={ Contato } />
-      <Route exact path="/portifolio/Projetos" component={ Projetos } />
-      <Route exact path="/portifolio/Sobre" component={ Sobre } />
+      <Route exact path="/portfolio/" component={ Home } />
+      <Route exact path="/portfolio/Contato" component={ Contato } />
+      <Route exact path="/portfolio/Projetos" component={ Projetos } />
+      <Route exact path="/portfolio/Sobre" component={ Sobre } />
       <Route exact path="*" component={ NotFound } />
     </Switch>
   );
