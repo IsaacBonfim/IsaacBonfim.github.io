@@ -2,7 +2,7 @@
   "name": "versao-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://isaacbonfim.github.io/portfolio/;",
+  "homepage": "https://isaacbonfim.github.io/portfolio/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.3",
